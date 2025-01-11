@@ -629,10 +629,10 @@ body {
     }
 
     .navbar {
-        padding: 10px;
-        height: 80px;
         flex-direction: column;
         align-items: flex-start;
+        height: auto; /* Adjust height to accommodate content */
+        padding: 10px 20px;
     }
 
     .projects {
@@ -655,6 +655,22 @@ body {
 
     .footerone, .footertwo {
         padding: 10px;
+    }
+    .testuser, #logout {
+        font-size: 16px; 
+        padding: 5px 0;  
+        margin-right: 0; 
+        color: #fff;     
+    }
+
+    .testuser {
+        display: block; 
+        padding-right: 10px; 
+    }
+
+    #logout {
+        display: block;
+        padding: 10px 0; 
     }
 
     .menu {
