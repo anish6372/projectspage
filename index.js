@@ -1,4 +1,41 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+    const sidebar = document.querySelector(".sidebar");
+    const closeArea = document.createElement("div"); 
+    closeArea.classList.add("close-area");
+    document.body.appendChild(closeArea);
+
+    
+    const toggleSidebar = () => {
+        if (sidebar.classList.contains("open")) {
+            sidebar.classList.remove("open"); 
+            closeArea.classList.remove("show"); 
+        } else {
+            sidebar.classList.add("open"); 
+            closeArea.classList.add("show"); 
+        }
+    };
+
+    
+    const logoArea = document.querySelector(".navbar .logomain");
+    logoArea.addEventListener("click", (event) => {
+        if (window.innerWidth <= 768) {
+            toggleSidebar(); 
+        }
+    });
+
+    
+    closeArea.addEventListener("click", () => {
+        toggleSidebar(); 
+    });
+
+    
+    document.querySelectorAll(".project-card, .project-cardtwo, .project-cardthree, .project-cardfour")
+        .forEach((projectCard) => {
+            projectCard.addEventListener("click", (event) => {
+                event.stopPropagation(); 
+            });
+        });
     
     const getProjectCard = (element) => {
         
