@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logomain">
+      <img src="./assets/42gears.png" alt="">
+    </div>
+    <div class="user-options">
+      <div class="user-logomain">
+        
+         <div class="navdiv">
+          <i class="fa-regular fa-circle-user" ></i>
+          <span class="testuser" >Test User  <i class="fa-solid fa-angle-down"></i></span>
+         </div>
+      </div>
+      <h4 id="logout">Logout  <i class="fa-solid fa-arrow-right"></i></h4>
+    </div>
+  </div>
+
+ 
+  <div class="sidebar">
+    <div class="logo"></div>
+    <ul>
+      <li id="menu1"> <span class="menulogo"><i class="fa-solid fa-layer-group"></i></span>Menu 1</li>
+      <li id="menu2"><span class="menulogo"><i class="fa-solid fa-chart-line"></i></span> Menu 2</li>
+      <li id="menu3"> <span class="menulogo"><i class="fa-solid fa-qrcode"></i></span> Menu 3</li>
+    </ul>
+  </div>
+
+ 
+  <div class="main-content">
+    <div class="header">
+      <span>TestProject</span>
+      
+    </div>
+    <div class="projects">
+      
+      <div class="project-card">
+        <div class="project-header">
+          <div class="user-info">
+            <span class="user-logo"><i class=" fa-solid fa-user" ></i></span> 
+            <span class="username">User: sayedameen_Pro</span>
+          </div>
+          <button class="menu-btn">...</button>
+        </div>
+        <div class="status-wrapper">
+          <div class="status-indicator running">.</div>
+          <span class="status-text">Running   : <span class="status-text-description">Lorem ipsum dolor sit amet, consectetur  elit</span>  </span><br>
+          
+          
+          
+         
+          <h6>Details ></h6>
+         
+        </div>
+        <ul class="menu">
+          <li> <i class="fa-solid fa-square-share-nodes"></i> Share Project</li>
+          <li class="copy-btn"> <i class="fa-regular fa-copy"></i>Copy Project</li>
+          <li class="refersh-btn"> <i class="fa-solid fa-arrows-rotate"></i>Refresh</li>
+          <li> <i class="fa-regular fa-bookmark"></i>logs</li>
+          <li class="edit-btn"> <i class="fa-solid fa-pen-to-square"></i>Edit</li>
+          <li class="delete-btn"> <i class="fa-regular fa-trash-can"></i>Delete</li>
+        </ul>
+        
+        <div class="footerone">
+          <i class="fa-regular fa-circle-play"></i>
+          <span class="pause-wrapper">
+            <i class="fa-solid fa-square"></i>
+          </span>
+        </div>
+      
+      </div>
+
+     
+      <div class="project-cardtwo">
+        <div class="project-header">
+          <div class="user-info">
+           <span class="user-logo"><i class=" fa-solid fa-user" ></i></span> 
+            <span class="username">User: sayedameen_Pro</span>
+          </div>
+          <button class="menu-btn">...</button>
+        </div>
+        <div class="status-wrapper">
+          <div class="status-indicator not-running" ></div>
+          <div class="status-text" >Not Running : <span  class="status-text-description">Lorem ipsum dolor sit amet, consectetur</span></div> <!-- Added Status Text -->
+          
+          <h6 id="details1">Details ></h6>
+        </div>
+        
+        <ul class="menu">
+          <li> <i class="fa-solid fa-square-share-nodes"></i> Share Project</li>
+          <li class="copy-btn"> <i class="fa-regular fa-copy"></i>Copy Project</li>
+          <li> <i class="fa-solid fa-arrows-rotate"></i>Refresh</li>
+          <li> <i class="fa-regular fa-bookmark"></i>logs</li>
+          <li class="edit-btn"> <i class="fa-solid fa-pen-to-square"></i>Edit</li>
+          <li class="delete-btn"><i class="fa-regular fa-trash-can"></i>Delete</li>
+        </ul>
+        
+        <div class="footerone">
+          <i class="fa-regular fa-circle-play"></i>
+          <span class="pause-wrapper">
+            <i class="fa-solid fa-square"></i>
+          </span>
+        </div>
+      </div>
+
+      
+      <div class="project-cardthree">
+        <div class="project-header">
+            <div class="user-info">
+                
+              <span class="user-logot"><i class=" fa-solid fa-user" ></i></span> 
+                
+                <span class="usernamethree">User: sayedameen_Pro</span>
+            </div>
+            <button class="menu-btn">...</button>
+        </div>
+        <div class="status-wrapperr">
+            <div  class="status-indicator running"></div>
+            <span class="status-textt">Running: <span class="status-text-description">Lorem ipsum dolor sit amet, consectetur adipi elit.</span></span>
+            <h6>Details ></h6>
+        </div>
+        <ul class="menu">
+            <li> <i class="fa-solid fa-square-share-nodes"></i> Share Project</li>
+            <li class="copy-btn"> <i class="fa-regular fa-copy"></i> Copy Project</li>
+            <li> <i class="fa-regular fa-bookmark"></i>logs</li>
+            <li> <i class="fa-solid fa-arrows-rotate"></i>Refresh</li>
+            <li class="edit-btn"> <i class="fa-solid fa-pen-to-square"></i>Edit</li>
+            <li class="delete-btn"><i class="fa-regular fa-trash-can"></i>Delete</li>
+        </ul>
+        <div>
+            <div class="packageone">
+                <div class="packageone-wrapper">
+                    <p class="packageone-text">Packages: <span class="downloadpackagegreen">Downloading packages... 60%</span></p>
+                    <div class="progress-bar green-bar">
+                        <div class="progress-bar-fill green-fill" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footertwo">
+          <i class="fa-regular fa-circle-play"></i>
+          <span class="pause-wrapper">
+            <i class="fa-solid fa-square"></i>
+          </span>
+        </div>
+    </div>
+    
+    
+    
+
+      
+      <div class="project-cardfour">
+        <div class="project-header">
+            <div class="user-info">
+                <div class="user-logo2">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="username">User: sayedameen_Pro</span>
+                </div>
+            </div>
+            <button class="menu-btn">...</button>
+        </div>
+        <div class="status-wrapperrt">
+            <div class="status-indicator not-running"></div>
+            <span class="status-textt">Not Running: <span class="status-text-description">Lorem ipsum dolor sit amet, consectetur elit.</span></span>
+            <h6>Details ></h6>
+        </div>
+        <ul class="menu">
+            <li> <i class="fa-solid fa-square-share-nodes"></i> Share Project</li>
+            <li class="copy-btn"> <i class="fa-regular fa-copy"></i> Copy Project</li>
+            <li> <i class="fa-regular fa-bookmark"></i>logs</li>
+            <li> <i class="fa-solid fa-arrows-rotate"></i>Refresh</li>
+            <li class="edit-btn"> <i class="fa-solid fa-pen-to-square"></i>Edit</li>
+            <li class="delete-btn"><i class="fa-regular fa-trash-can"></i>Delete</li>
+        </ul>
+        <div>
+            <div class="packagetwo">
+                <div class="packagetwo-wrapper">
+                    <p class="packagetwo-text">Packages: <span class="downloadpackagered">Downloading packages... 30%</span></p>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width: 30%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footertwo">
+          <i class="fa-regular fa-circle-play"></i>
+          <span class="pause-wrapper">
+            <i class="fa-solid fa-square"></i>
+          </span>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
